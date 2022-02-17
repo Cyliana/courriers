@@ -1,0 +1,44 @@
+ .App 
+{
+  
+    width: 100vw;
+    margin:0;
+    padding:0;
+    width:100%;
+    /* text-align: center; */
+}
+
+.container
+{
+    margin:100px auto;
+    color:black;
+}
+
+#formulaire
+{
+    height: auto;
+    width:400px;
+}
+
+.fieldInput, input, textarea, select
+{
+    width:400px;
+}
+
+input[type=submit]
+{
+    height: 30px;
+    width: 100px;
+    margin:20px 0;
+}
+
+.textArea
+{
+    display:flex;
+    flex-direction: column;
+}
+
+select
+{
+    margin:10px 0;
+}

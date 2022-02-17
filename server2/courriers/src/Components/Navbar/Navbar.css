@@ -1,0 +1,46 @@
+.container-fluid
+{
+    padding:0px;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgb(116, 163, 132);
+    height:80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-link
+{
+    line-height:80px;
+    vertical-align: middle;
+    padding :0;
+    color:#000000;
+    margin-left:20px;
+}
+
+.nav-link:hover
+{
+    color:rgb(255, 255, 255)
+}
+
+.nav-link.disabled
+{
+    color:white;
+}
+
+#user
+{
+    line-height: 80px;
+    vertical-align: middle;
+    text-align: end;
+}
+
+.col-md-6
+{
+    padding-right: 20px;
+}

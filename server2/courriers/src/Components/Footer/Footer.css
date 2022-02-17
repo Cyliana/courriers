@@ -1,0 +1,44 @@
+footer
+{
+    position:fixed;
+    bottom:0;
+    left:0;
+    height:80px;
+    margin-top:40px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(116, 163, 132);
+}
+
+footer>button
+{
+    border-radius: 5px;
+    display: inline-block;  
+    text-decoration: none;
+    margin:20px;
+    height: 35px;
+}
+
+footer>button
+{
+    background-color: rgb(206, 206, 206);
+    color:black;
+}
+
+button>a
+{
+    line-height: 30px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black; 
+}
+button>a:hover
+{
+    color:black;
+}
+
+button:hover
+{
+color:black;
+background-color:rgb(177, 177, 177);
+}

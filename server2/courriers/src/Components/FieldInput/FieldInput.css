@@ -1,0 +1,29 @@
+.fieldInput
+{
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.fieldInput label
+{
+    display:block;
+    text-align: left;
+    width:100%;
+}
+
+
+.fieldInput input[type=text],
+.fieldInput input[type=password],
+.fieldInput input[type=number],
+.fieldInput input[type=tel],
+.fieldInput input[type=email],
+.fieldInput input[type=date],
+.fieldInput input[type=select]
+{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    height: 30px;
+}
+
+
